@@ -151,4 +151,4 @@ python inference.py
 
 ---
 
-*Course project — CMU 11-781/02-741: Generative AI for Biomedicine (Fall 2025)*
+*Course project — CMU: Generative AI for Biomedicine (Fall 2025)*
