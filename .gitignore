@@ -1,0 +1,9 @@
+pretrained_model/
+data/
+models/
+design/
+__pycache__/
+*.pyc
+*.pt
+*.gz
+*.tar
