@@ -149,5 +149,3 @@ python inference.py
 - Abramson et al. (2024). [Accurate structure prediction of biomolecular interactions with AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w). *Nature.*
 
 ---
-
-*Course project — CMU: Generative AI for Biomedicine (Fall 2025)*
