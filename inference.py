@@ -27,7 +27,7 @@ eos_idx = alphabet.eos()
 fw = open(os.path.join(OUTPUT_RESULT_PATH, OUTPUT_FILE_NAME), 'w')
 
 model = ProGenForCausalLM.from_pretrained(os.path.join(PRETRAINED_MODEL_PATH, PRETRAINED_MODEL)).to('cuda')
-# TODO: loading model checkpoints
+# loading model checkpoints
 checkpoint_path = os.path.join(OUTPUT_MODEL_PATH, "best_checkpoint.pt")
 model.load_state_dict(torch.load(checkpoint_path, map_location='cuda'))
 model.eval()
@@ -37,7 +37,7 @@ num_updates = 0
 best_valid_loss = np.inf 
 for prefix_seqs, _ in test_dataloader:
     prefix_seqs = prefix_seqs.to('cuda')
-    # TODO: get model predicitons, calling model forward_inference
+    # get model predicitons, calling model forward_inference
     with torch.no_grad():
         indexes = model.forward_inference(
             prefix_seqs,
