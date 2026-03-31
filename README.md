@@ -98,7 +98,6 @@ progen2-gfp/
 ├── model.py              # ProGen2 model architecture (transformer + causal LM head)
 ├── train.py              # Fine-tuning script
 ├── inference.py          # Sequence generation script
-├── dataset.py            # Data loading utilities (not included — see setup)
 ├── report/
 │   └── GFP_Design_Report.pdf   # Top-5 candidate report with AF3 results
 └── README.md
